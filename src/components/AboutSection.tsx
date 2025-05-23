@@ -10,7 +10,7 @@ const AboutSection = () => {
         <div className="flex flex-col md:flex-row items-center md:items-start">
           <div className="w-full md:w-2/5 mb-10 md:mb-0">
             <img 
-              src="public/images/Logo1.png"
+              src="/images/Logo1.png"
               alt="About Me" 
               className="rounded-lg w-full h-auto object-cover"
             />

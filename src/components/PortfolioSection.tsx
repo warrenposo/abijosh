@@ -5,37 +5,37 @@ import { Link } from "react-router-dom";
 const PortfolioSection = () => {
   const projects = [
     {
-      image: "public/images/Collar tag.png",
+      image: "/images/Collar tag.png",
       category: "Branding & Identity",
       title: "Corporate Brand Identity System",
       link: "/portfolio/project-1"
     },
     {
-      image: "public/images/Mio Mango.png",
+      image: "/images/Mio Mango.png",
       category: "Motion Graphics",
       title: "Animated Promotional Campaign",
       link: "/portfolio/project-2"
     },
     {
-      image: "public/images/Rosybill logo.png",
+      image: "/images/Rosybill logo.png",
       category: "Print Design",
       title: "Logo Designsand editings",
       link: "/portfolio/project-3"
     },
     {
-      image: "public/images/Tausia.png",
+      image: "/images/Tausia.png",
       category: "Web Development",
       title: "E-commerce Platform Redesign",
       link: "/portfolio/project-4"
     },
     {
-      image: "public/images/Coffee Cup.png",
+      image: "/images/Coffee Cup.png",
       category: "UI/UX Design",
       title: "Documentary and Short Ad Production",
       link: "/portfolio/project-5"
     },
     {
-      image: "public/images/The Summer.png",
+      image: "/images/The Summer.png",
       category: "Digital Marketing",
       title: "Social Media Campaign Strategy",
       link: "/portfolio/project-6"
