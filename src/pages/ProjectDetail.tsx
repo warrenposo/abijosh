@@ -27,7 +27,6 @@ const projectsData = {
       "/images/RassArts logo.png",
       "/images/Tausialogo.png",
       "/images/Logo1.png",
-      
     ],
   },
   "project-2": {
@@ -37,13 +36,13 @@ const projectsData = {
     client: "Global Products Co.",
     completion: "January 2024",
     mainImage: "/images/Mio Mango.png",
-    galleryImages: [
-      "/images/Mio Mango.png",
-      "/images/Coffee1.png",
-      "/images/Coffee2.png",
-      "/images/Coffee5.png",
-    ],
-    videoId: "9bZkp7q19f0",
+    galleryVideos: [
+      "https://www.youtube.com/embed/BQxJsfZ8n34",
+      "https://www.youtube.com/embed/saUxNmBoHVU",
+      "https://www.youtube.com/embed/uqhk3_e91u4",
+      "https://www.youtube.com/embed/7TMolhjfb0g",
+      "https://www.youtube.com/embed/7TMolhjfb0g"
+    ]
   },
   "project-3": {
     title: "Print designs",
@@ -64,7 +63,6 @@ const projectsData = {
       "/images/Coffee1.png",
       "/images/Coffee2.png",
     ],
-    videoId: "bTqVqk7FSmY",
   },
   "project-4": {
     title: "Digital Designs & Infographics",
@@ -79,7 +77,6 @@ const projectsData = {
       "/images/club party.png",
       "/images/Spa.png",
     ],
-    videoId: "LXb3EKWsInQ",
   },
   "project-5": {
     title: "Advertising & Marketing Design",
@@ -92,7 +89,6 @@ const projectsData = {
       "/images/Roll.png",
       "/images/Exhibition.png",
     ],
-    videoId: "l3UjnxF_Gk4",
   },
   "project-6": {
     title: "Environmental & Experiential Design",
@@ -105,7 +101,6 @@ const projectsData = {
       "/images/TausiaB.png",
       "/images/Product.png",
     ],
-    videoId: "9VQuZUa2H3o",
   }
 };
 
@@ -151,14 +146,6 @@ const ProjectDetail = () => {
                     <p className="text-white">{project.completion}</p>
                   </div>
                 </div>
-                <Button 
-                  className="bg-brand-red hover:bg-brand-red/80" 
-                  size="lg"
-                  onClick={() => window.open(`https://www.youtube.com/watch?v=${project.videoId}`, '_blank')}
-                >
-                  <Youtube className="mr-2 h-5 w-5" />
-                  Watch Project Video
-                </Button>
               </div>
               <div className="md:w-1/2">
                 <img 
@@ -176,33 +163,31 @@ const ProjectDetail = () => {
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-12 text-center">Project Gallery</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {project.galleryImages.map((image, index) => (
-                <Card key={index} className="bg-dark-200 border-none overflow-hidden">
-                  <CardContent className="p-0">
-                    <img 
-                      src={image} 
-                      alt={`Project gallery image ${index + 1}`}
-                      className="w-full h-64 object-contain hover:scale-105 transition-transform duration-300"
+              {project.galleryVideos ? (
+                project.galleryVideos.map((videoUrl, index) => (
+                  <div key={index} className="aspect-video w-full rounded-lg overflow-hidden bg-black">
+                    <iframe
+                      src={videoUrl}
+                      title={`Project video ${index + 1}`}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full"
                     />
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* YouTube Video Section */}
-        <section className="py-20">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-12 text-center">Project Video</h2>
-            <div className="aspect-video w-full max-w-4xl mx-auto bg-dark-200 rounded-lg overflow-hidden">
-              <iframe
-                className="w-full h-full"
-                src={`https://www.youtube.com/embed/${project.videoId}`}
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+                  </div>
+                ))
+              ) : (
+                project.galleryImages.map((image, index) => (
+                  <Card key={index} className="bg-dark-200 border-none overflow-hidden">
+                    <CardContent className="p-0">
+                      <img 
+                        src={image} 
+                        alt={`Project gallery image ${index + 1}`}
+                        className="w-full h-64 object-contain hover:scale-105 transition-transform duration-300"
+                      />
+                    </CardContent>
+                  </Card>
+                ))
+              )}
             </div>
           </div>
         </section>
