@@ -1,17 +1,16 @@
-
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
 import { Link } from "react-router-dom";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "../components/ui/card";
 
 const Portfolio = () => {
   // Using the same project data structure as in ProjectDetail for consistency
   const projects = [
     {
       id: "project-1",
-      image: "/images/Collar tag.png",
+      image: "/images/Logo1.png",
       category: "Branding & Identity",
       title: "Corporate Brand Identity System",
       client: "Tech Innovations Inc.",
@@ -19,68 +18,44 @@ const Portfolio = () => {
     },
     {
       id: "project-2",
-      image: "/images/Mio Mango.png",
+      image:  "/images/Mio Mango.png",
       category: "Motion Graphics",
-      title: "Animated Promotional Campaign",
+      title: "Motion Graphics",
       client: "Global Products Co.",
       completion: "January 2024"
     },
     {
       id: "project-3",
-      image: "/images/Rosybill logo.png",
-      category: "Logo Designs",
-      title: "Logo Designs",
+      image: "/images/Hodie.png",
+      category: "Print Designs",
+      title: "Print Designs",
       client: "Lifestyle Publishers Ltd.",
       completion: "February 2024"
     },
     {
       id: "project-4",
-      image: "/images/Tausia.png",
-      category: "Business branding",
-      title: "E-commerce Platform Redesign",
+      image: "/images/The Summer.png",
+      category: "Digital Designs & Infographics",
+      title: "Digital Designs & Infographics",
       client: "Online Retail Solutions",
       completion: "April 2024"
     },
     {
       id: "project-5",
-      image: "/images/Coffee1.png",
-      category: "Video add Design",
-      title: "Documentary and Short Ad Production",
+      image: "/images/Roll.png",
+      category: "Advertising & Marketing Design",
+      title: "Advertising & Marketing Design",
       client: "FinTech Innovations",
       completion: "February 2024"
     },
     {
       id: "project-6",
-      image: "/images/The Summer.png",
-      category: "Digital Marketing",
-      title: "Social Media Campaign Strategy",
+      image: "/images/Product.png",
+      category: "Environmental & Experiential Design",
+      title: "Environmental & Experiential Design",
       client: "Marketing Solutions Group",
       completion: "May 2024"
     },
-    // {
-    //   id: "project-7",
-    //   image: "/images/Exhibition.png",
-    //   category: "Photography",
-    //   title: "Product Photography Campaign",
-    //   client: "Luxury Goods Inc.",
-    //   completion: "March 2024"
-    // },
-    // {
-    //   id: "project-8",
-    //   image: "/images/TDA.png",
-    //   category: "Web Design",
-    //   title: "Corporate Website Redesign",
-    //   client: "Finance Solutions Corp.",
-    //   completion: "January 2024"
-    // },
-    // {
-    //   id: "project-9",
-    //   image: "/images/Product.png",
-    //   category: "App Development",
-    //   title: "Fitness Tracking Mobile App",
-    //   client: "Health & Wellness Co.",
-    //   completion: "April 2024"
-    // }
   ];
 
   return (
@@ -104,7 +79,7 @@ const Portfolio = () => {
                     <img 
                       src={project.image} 
                       alt={project.title} 
-                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                      className="w-full h-full object-contain transition-transform duration-500 hover:scale-105"
                     />
                     <div className="absolute top-4 left-4">
                       <span className="bg-brand-red text-white text-xs px-3 py-1 rounded-full">

@@ -1,11 +1,10 @@
-
 import React from "react";
 import { useParams } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "../components/ui/button";
+import { Card, CardContent } from "../components/ui/card";
 import { ArrowLeft, Youtube } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -17,40 +16,9 @@ const projectsData = {
     description: "A comprehensive brand identity system for a Fortune 500 tech company, including logo design, color palette, typography, and brand guidelines. This project involved extensive market research, competitor analysis, and stakeholder interviews to create a cohesive visual identity that resonates with the target audience.",
     client: "Tech Innovations Inc.",
     completion: "March 2024",
-    mainImage: "/images/Collar tag.png",
+    mainImage: "/images/Logo1.png",
     galleryImages: [
-      "/images/Envelope.png",
-      "/images/Collar tag.png",
-      "/images/Business.png",
-      "/images/Roll.png",
-    ],
-    videoId: "dQw4w9WgXcQ", // Example YouTube video ID
-  },
-  "project-2": {
-    title: "Animated Promotional Campaign",
-    category: "Motion Graphics",
-    description: "A series of animated promotional videos for a product launch campaign. Using advanced motion graphics techniques to showcase product features and benefits in an engaging and visually appealing way. The campaign included social media content, website animations, and digital advertisements.",
-    client: "Global Products Co.",
-    completion: "January 2024",
-    mainImage: "/images/Mio Mango.png",
-    galleryImages: [
-      "/images/Mio Mango.png",
-      "/images/Coffee1.png",
-      "/images/Coffee2.png",
-      // "/images/COFFEE3,png",
-      "/images/Coffee5.png",
-    ],
-    videoId: "9bZkp7q19f0", // Example YouTube video ID
-  },
-  "project-3": {
-    title: "Logo designs",
-    category: "Logo Designs",
-    description: "A collection of custom logo designs crafted to capture the essence of each brand's identity. This project involved conceptual development, typography exploration, and graphic creation to deliver distinctive, memorable logos that align with each client's vision and values while maintaining visual impact and scalability across various media",
-    client: "Lifestyle Publishers Ltd.",
-    completion: "February 2024",
-    mainImage: "/images/Rosybill logo.png",
-    galleryImages: [
-      "/images/Rosybill logo.png",
+     "/images/Rosybill logo.png",
       "/images/Ab.png",
       "/images/Abl.png",
       "/images/ENDD.png",
@@ -59,63 +27,91 @@ const projectsData = {
       "/images/RassArts logo.png",
       "/images/Tausialogo.png",
       "/images/Logo1.png",
-       "/images/TDA.png",
+      
     ],
-    videoId: "bTqVqk7FSmY", // Example YouTube video ID
+  },
+  "project-2": {
+    title: "Motion Graphics",
+    category: "Motion Graphics",
+    description: "Dynamic visuals that bring your brand to life—animated logos, explainer videos, title sequences, and captivating motion content for ads and social media.",
+    client: "Global Products Co.",
+    completion: "January 2024",
+    mainImage: "/images/Mio Mango.png",
+    galleryImages: [
+      "/images/Mio Mango.png",
+      "/images/Coffee1.png",
+      "/images/Coffee2.png",
+      "/images/Coffee5.png",
+    ],
+    videoId: "9bZkp7q19f0",
+  },
+  "project-3": {
+    title: "Print designs",
+    category: "Print Designs",
+    description: "A collection of custom logo designs crafted to capture the essence of each brand's identity. This project involved conceptual development, typography exploration, and graphic creation to deliver distinctive, memorable logos that align with each client's vision and values while maintaining visual impact and scalability across various media",
+    client: "Lifestyle Publishers Ltd.",
+    completion: "February 2024",
+    mainImage: "/images/Hodie.png",
+    galleryImages: [
+      "/images/Collar tag.png",
+      "/images/TDA.png",
+      "/images/Hodie.png",
+      "/images/Envelope.png",
+      "/images/Tausia.png",
+      "/images/REST.png",
+      "/images/Business.png",
+      "/images/Coffee5.png",
+      "/images/Coffee1.png",
+      "/images/Coffee2.png",
+    ],
+    videoId: "bTqVqk7FSmY",
   },
   "project-4": {
-    title: "E-commerce Platform Redesign",
-    category: "Web Development",
+    title: "Digital Designs & Infographics",
+    category: "Digital Designs & Infographics",
     description: "Complete redesign of an e-commerce platform to improve user experience, increase conversions, and modernize the visual language. The project involved user research, wireframing, prototyping, and implementation of a responsive design system that works seamlessly across all devices.",
     client: "Online Retail Solutions",
     completion: "April 2024",
-    mainImage: "/images/Tausia.png",
-    galleryImages: [
-      "/images/Tausia.png",
-      "/images/Biryani.png",
-      "/images/Hodie.png",
-      "/images/Instagram.png",
-      "/images/Spa.png",
-    ],
-    videoId: "LXb3EKWsInQ", // Example YouTube video ID
-  },
-  "project-5": {
-    title: "Documentary and Short Ad Production",
-    category: "UI/UX Design",
-    description: "Production of compelling short-form video content, including documentaries and advertisements, designed to tell impactful stories and engage target audiences. This project encompassed concept development, scriptwriting, filming, editing, and post-production to deliver visually engaging and emotionally resonant media tailored for both digital and broadcast platforms.",
-    client: "FinTech Innovations",
-    completion: "February 2024",
-    mainImage: "/images/Coffee1.png",
-    galleryImages: [
-     "/images/Coffee1.png",
-      "/images/Coffee2.png",
-      "/images/COFFEE3.png",
-      "/images/Coffee5.png",
-      "/images/MUG.png",
-    ],
-    videoId: "l3UjnxF_Gk4", // Example YouTube video ID
-  },
-  "project-6": {
-    title: "Social Media Campaign Strategy",
-    category: "Digital Marketing",
-    description: "Development and execution of a comprehensive social media campaign strategy for a product launch. The project included content creation, audience targeting, engagement strategies, and performance analytics to ensure maximum reach and conversion across multiple social platforms.",
-    client: "Marketing Solutions Group",
-    completion: "May 2024",
     mainImage: "/images/The Summer.png",
     galleryImages: [
       "/images/The Summer.png",
       "/images/Tavel.png",
-     "/images/club party.png",
-     "/images/Cop.png",
-     
+      "/images/club party.png",
+      "/images/Spa.png",
     ],
-    videoId: "9VQuZUa2H3o", // Example YouTube video ID
+    videoId: "LXb3EKWsInQ",
+  },
+  "project-5": {
+    title: "Advertising & Marketing Design",
+    category: "Advertising & Marketing Design",
+    description: "Attention-grabbing campaigns across billboards, digital ads, email graphics, and promotional content designed to boost engagement and sales.",
+    client: "FinTech Innovations",
+    completion: "February 2024",
+    mainImage: "/images/Roll.png",
+    galleryImages: [
+      "/images/Roll.png",
+      "/images/Exhibition.png",
+    ],
+    videoId: "l3UjnxF_Gk4",
+  },
+  "project-6": {
+    title: "Environmental & Experiential Design",
+    category: "Environmental & Experiential Design",
+    description: "Immersive branding for physical spaces—signage, retail interiors, event branding, and exhibition designs that leave a lasting impression.",
+    client: "Marketing Solutions Group",
+    completion: "May 2024",
+    mainImage:  "/images/Product.png",
+    galleryImages: [
+      "/images/TausiaB.png",
+      "/images/Product.png",
+    ],
+    videoId: "9VQuZUa2H3o",
   }
 };
 
 const ProjectDetail = () => {
-  const { projectId } = useParams<{ projectId: string }>();
-  const project = projectsData[projectId as keyof typeof projectsData];
+  const { projectId } = useParams();
+  const project = projectsData[projectId];
 
   if (!project) {
     return (
@@ -168,7 +164,7 @@ const ProjectDetail = () => {
                 <img 
                   src={project.mainImage} 
                   alt={project.title}
-                  className="w-full h-[400px] object-cover rounded-lg shadow-lg"
+                  className="w-full h-[400px] object-contain rounded-lg shadow-lg"
                 />
               </div>
             </div>
@@ -186,7 +182,7 @@ const ProjectDetail = () => {
                     <img 
                       src={image} 
                       alt={`Project gallery image ${index + 1}`}
-                      className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                      className="w-full h-64 object-contain hover:scale-105 transition-transform duration-300"
                     />
                   </CardContent>
                 </Card>

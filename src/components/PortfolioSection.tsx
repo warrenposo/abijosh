@@ -1,43 +1,42 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 
 const PortfolioSection = () => {
   const projects = [
     {
-      image: "/images/Collar tag.png",
+      image: "/images/Logo1.png",
       category: "Branding & Identity",
-      title: "Corporate Brand Identity System",
+      title: "Branding & Identity Design",
       link: "/portfolio/project-1"
     },
     {
       image: "/images/Mio Mango.png",
       category: "Motion Graphics",
-      title: "Animated Promotional Campaign",
+      title: "Motion Graphics",
       link: "/portfolio/project-2"
     },
     {
-      image: "/images/Rosybill logo.png",
+      image: "/images/Hodie.png",
       category: "Print Design",
-      title: "Logo Designs and editings",
+      title: "Print Design",
       link: "/portfolio/project-3"
     },
     {
-      image: "/images/Tausia.png",
-      category: "Web Development",
-      title: "E-commerce Platform Redesign",
+      image: "/images/The Summer.png",
+      category: "Digital Designs & Infographics",
+      title: "Digital Designs & Infographics",
       link: "/portfolio/project-4"
     },
     {
-      image: "/images/Coffee1.png",
-      category: "UI/UX Design",
-      title: "Documentary and Short Ad Production",
+      image: "/images/Roll.png",
+      category: "Advertising & Marketing Design",
+      title: "Advertising & Marketing Design",
       link: "/portfolio/project-5"
     },
     {
-      image: "/images/The Summer.png",
-      category: "Digital Marketing",
-      title: "Social Media Campaign Strategy",
+      image: "/images/Product.png",
+      category: "Environmental & Experiential Design",
+      title: "Marketing ",
       link: "/portfolio/project-6"
     }
   ];
@@ -58,7 +57,7 @@ const PortfolioSection = () => {
               <img 
                 src={project.image} 
                 alt={project.title} 
-                className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-80 object-contain transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6">
                 <span className="text-sm text-gray-300">{project.category}</span>
