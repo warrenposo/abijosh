@@ -11,7 +11,7 @@ const Portfolio = () => {
   const projects = [
     {
       id: "project-1",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800",
+      image: "/images/Collar tag.png",
       category: "Branding & Identity",
       title: "Corporate Brand Identity System",
       client: "Tech Innovations Inc.",
@@ -19,7 +19,7 @@ const Portfolio = () => {
     },
     {
       id: "project-2",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800",
+      image: "/images/Mio Mango.png",
       category: "Motion Graphics",
       title: "Animated Promotional Campaign",
       client: "Global Products Co.",
@@ -27,7 +27,7 @@ const Portfolio = () => {
     },
     {
       id: "project-3",
-      image: "https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=800",
+      image: "/images/Rosybill logo.png",
       category: "Print Design",
       title: "Editorial Magazine Layout",
       client: "Lifestyle Publishers Ltd.",
@@ -35,7 +35,7 @@ const Portfolio = () => {
     },
     {
       id: "project-4",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800",
+      image: "/images/Tausia.png",
       category: "Web Development",
       title: "E-commerce Platform Redesign",
       client: "Online Retail Solutions",
@@ -43,7 +43,7 @@ const Portfolio = () => {
     },
     {
       id: "project-5",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800",
+      image: "/images/Coffee Cup.png",
       category: "UI/UX Design",
       title: "Mobile Banking Application",
       client: "FinTech Innovations",
@@ -51,7 +51,7 @@ const Portfolio = () => {
     },
     {
       id: "project-6",
-      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=800",
+      image: "/images/The Summer.png",
       category: "Digital Marketing",
       title: "Social Media Campaign Strategy",
       client: "Marketing Solutions Group",
@@ -59,7 +59,7 @@ const Portfolio = () => {
     },
     {
       id: "project-7",
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800",
+      image: "/images/Exhibition.png",
       category: "Photography",
       title: "Product Photography Campaign",
       client: "Luxury Goods Inc.",
@@ -67,7 +67,7 @@ const Portfolio = () => {
     },
     {
       id: "project-8",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800",
+      image: "/images/TDA.png",
       category: "Web Design",
       title: "Corporate Website Redesign",
       client: "Finance Solutions Corp.",
@@ -75,7 +75,7 @@ const Portfolio = () => {
     },
     {
       id: "project-9",
-      image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800",
+      image: "/images/Product.png",
       category: "App Development",
       title: "Fitness Tracking Mobile App",
       client: "Health & Wellness Co.",
