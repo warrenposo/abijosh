@@ -5,37 +5,37 @@ import { Link } from "react-router-dom";
 const PortfolioSection = () => {
   const projects = [
     {
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800",
+      image: "public/images/Collar tag.png",
       category: "Branding & Identity",
       title: "Corporate Brand Identity System",
       link: "/portfolio/project-1"
     },
     {
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800",
+      image: "public/images/Mio Mango.png",
       category: "Motion Graphics",
       title: "Animated Promotional Campaign",
       link: "/portfolio/project-2"
     },
     {
-      image: "https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=800",
+      image: "public/images/Rosybill logo.png",
       category: "Print Design",
-      title: "Editorial Magazine Layout",
+      title: "Logo Designsand editings",
       link: "/portfolio/project-3"
     },
     {
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800",
+      image: "public/images/Tausia.png",
       category: "Web Development",
       title: "E-commerce Platform Redesign",
       link: "/portfolio/project-4"
     },
     {
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800",
+      image: "public/images/Coffee Cup.png",
       category: "UI/UX Design",
-      title: "Mobile Banking Application",
+      title: "Documentary and Short Ad Production",
       link: "/portfolio/project-5"
     },
     {
-      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=800",
+      image: "public/images/The Summer.png",
       category: "Digital Marketing",
       title: "Social Media Campaign Strategy",
       link: "/portfolio/project-6"
