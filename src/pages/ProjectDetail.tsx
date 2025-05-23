@@ -17,7 +17,7 @@ const projectsData = {
     description: "A comprehensive brand identity system for a Fortune 500 tech company, including logo design, color palette, typography, and brand guidelines. This project involved extensive market research, competitor analysis, and stakeholder interviews to create a cohesive visual identity that resonates with the target audience.",
     client: "Tech Innovations Inc.",
     completion: "March 2024",
-    mainImage: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1200",
+    mainImage: "/images/Collar tag.png",
     galleryImages: [
       "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=800",
       "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=800",
@@ -31,7 +31,7 @@ const projectsData = {
     description: "A series of animated promotional videos for a product launch campaign. Using advanced motion graphics techniques to showcase product features and benefits in an engaging and visually appealing way. The campaign included social media content, website animations, and digital advertisements.",
     client: "Global Products Co.",
     completion: "January 2024",
-    mainImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200",
+    mainImage: "/images/Mio Mango.png",
     galleryImages: [
       "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=800",
       "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?auto=format&fit=crop&w=800",
@@ -45,7 +45,7 @@ const projectsData = {
     description: "Complete editorial design for a premium lifestyle magazine, including layout design, typography selection, image curation, and graphics creation. The project focused on creating a visually stunning yet readable experience that effectively communicates the magazine's content while maintaining brand consistency.",
     client: "Lifestyle Publishers Ltd.",
     completion: "February 2024",
-    mainImage: "https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=1200",
+    mainImage: "/images/Rosybill logo.png",
     galleryImages: [
       "https://images.unsplash.com/photo-1594061677657-bc15c5a32aca?auto=format&fit=crop&w=800",
       "https://images.unsplash.com/photo-1574351850223-769639884f3d?auto=format&fit=crop&w=800",
@@ -59,7 +59,7 @@ const projectsData = {
     description: "Complete redesign of an e-commerce platform to improve user experience, increase conversions, and modernize the visual language. The project involved user research, wireframing, prototyping, and implementation of a responsive design system that works seamlessly across all devices.",
     client: "Online Retail Solutions",
     completion: "April 2024",
-    mainImage: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1200",
+    mainImage: "/images/Tausia.png",
     galleryImages: [
       "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=800",
       "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800",
@@ -73,7 +73,7 @@ const projectsData = {
     description: "Design of a mobile banking application focused on creating an intuitive and secure experience for users. The project included user research, information architecture, interaction design, and visual design to create a solution that makes complex financial transactions simple and accessible.",
     client: "FinTech Innovations",
     completion: "February 2024",
-    mainImage: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200",
+    mainImage: "/images/Coffee Cup.png",
     galleryImages: [
       "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800",
       "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800",
@@ -87,7 +87,7 @@ const projectsData = {
     description: "Development and execution of a comprehensive social media campaign strategy for a product launch. The project included content creation, audience targeting, engagement strategies, and performance analytics to ensure maximum reach and conversion across multiple social platforms.",
     client: "Marketing Solutions Group",
     completion: "May 2024",
-    mainImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=1200",
+    mainImage: "/images/The Summer.png",
     galleryImages: [
       "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=800",
       "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?auto=format&fit=crop&w=800",

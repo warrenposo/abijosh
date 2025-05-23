@@ -57,30 +57,30 @@ const Portfolio = () => {
       client: "Marketing Solutions Group",
       completion: "May 2024"
     },
-    {
-      id: "project-7",
-      image: "/images/Exhibition.png",
-      category: "Photography",
-      title: "Product Photography Campaign",
-      client: "Luxury Goods Inc.",
-      completion: "March 2024"
-    },
-    {
-      id: "project-8",
-      image: "/images/TDA.png",
-      category: "Web Design",
-      title: "Corporate Website Redesign",
-      client: "Finance Solutions Corp.",
-      completion: "January 2024"
-    },
-    {
-      id: "project-9",
-      image: "/images/Product.png",
-      category: "App Development",
-      title: "Fitness Tracking Mobile App",
-      client: "Health & Wellness Co.",
-      completion: "April 2024"
-    }
+    // {
+    //   id: "project-7",
+    //   image: "/images/Exhibition.png",
+    //   category: "Photography",
+    //   title: "Product Photography Campaign",
+    //   client: "Luxury Goods Inc.",
+    //   completion: "March 2024"
+    // },
+    // {
+    //   id: "project-8",
+    //   image: "/images/TDA.png",
+    //   category: "Web Design",
+    //   title: "Corporate Website Redesign",
+    //   client: "Finance Solutions Corp.",
+    //   completion: "January 2024"
+    // },
+    // {
+    //   id: "project-9",
+    //   image: "/images/Product.png",
+    //   category: "App Development",
+    //   title: "Fitness Tracking Mobile App",
+    //   client: "Health & Wellness Co.",
+    //   completion: "April 2024"
+    // }
   ];
 
   return (
