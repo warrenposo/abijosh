@@ -28,24 +28,24 @@ const Portfolio = () => {
     {
       id: "project-3",
       image: "/images/Rosybill logo.png",
-      category: "Print Design",
-      title: "Editorial Magazine Layout",
+      category: "Logo Designs",
+      title: "Logo Designs",
       client: "Lifestyle Publishers Ltd.",
       completion: "February 2024"
     },
     {
       id: "project-4",
       image: "/images/Tausia.png",
-      category: "Web Development",
+      category: "Business branding",
       title: "E-commerce Platform Redesign",
       client: "Online Retail Solutions",
       completion: "April 2024"
     },
     {
       id: "project-5",
-      image: "/images/Coffee Cup.png",
-      category: "UI/UX Design",
-      title: "Mobile Banking Application",
+      image: "/images/Coffee1.png",
+      category: "Video add Design",
+      title: "Documentary and Short Ad Production",
       client: "FinTech Innovations",
       completion: "February 2024"
     },
@@ -113,7 +113,7 @@ const Portfolio = () => {
                     </div>
                   </div>
                   <CardContent className="p-6">
-                    <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
+                    <h3 className="text-2xl font-bold mb-2 text-white">{project.title}</h3>
                     <div className="flex justify-between text-sm text-gray-400 mb-4">
                       <span>{project.client}</span>
                       <span>{project.completion}</span>

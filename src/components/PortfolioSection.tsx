@@ -29,7 +29,7 @@ const PortfolioSection = () => {
       link: "/portfolio/project-4"
     },
     {
-      image: "/images/Coffee Cup.png",
+      image: "/images/Coffee1.png",
       category: "UI/UX Design",
       title: "Documentary and Short Ad Production",
       link: "/portfolio/project-5"
@@ -62,7 +62,7 @@ const PortfolioSection = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6">
                 <span className="text-sm text-gray-300">{project.category}</span>
-                <h3 className="text-2xl font-bold mb-4">{project.title}</h3>
+                <h3 className="text-2xl font-bold mb-4 text-white">{project.title}</h3>
                 <Link 
                   to={project.link} 
                   className="inline-block bg-dark text-white px-6 py-2 rounded uppercase text-sm font-semibold tracking-wider hover:bg-brand-red transition-colors"
