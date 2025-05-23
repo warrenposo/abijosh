@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
           <div className={`w-full md:w-1/2 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-20'}`}>
             <img 
-              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1000"
+              src="public/images/logoo.png"
               alt="Profile" 
               className="mx-auto object-cover w-full h-auto rounded-lg hover:shadow-lg transition-all duration-500 hover:scale-[1.02]"
             />

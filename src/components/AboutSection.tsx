@@ -10,7 +10,7 @@ const AboutSection = () => {
         <div className="flex flex-col md:flex-row items-center md:items-start">
           <div className="w-full md:w-2/5 mb-10 md:mb-0">
             <img 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800"
+              src="public/images/Logo1.png"
               alt="About Me" 
               className="rounded-lg w-full h-auto object-cover"
             />
