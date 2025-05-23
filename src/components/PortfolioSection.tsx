@@ -19,7 +19,7 @@ const PortfolioSection = () => {
     {
       image: "/images/Rosybill logo.png",
       category: "Print Design",
-      title: "Logo Designsand editings",
+      title: "Logo Designs and editings",
       link: "/portfolio/project-3"
     },
     {
